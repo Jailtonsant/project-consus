@@ -1,0 +1,71 @@
+.HospitalTitulo {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 130px;
+}
+
+.HospitalTituloStyle {
+    font-size: 30px;
+    border-bottom: 3px solid rgb(0, 140, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.InforHospital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.TextoHospital {
+    width: 80%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 2em;
+    text-align: center;
+}
+
+.TextoHospitalLista {
+    width: 50%;
+    border: 2px solid rgb(0, 140, 112);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.HospitalLista {
+    line-height: 2em;
+    text-align: ls;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.HospitalConteudo {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    border: 1px solid;
+}
+
+.HospitalCaixaConteudo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    font-size: 17px;
+    line-height: 3em;
+}
+
+.HospitalImagem {
+    width: 30%;
+    height: 70%;
+    border: 2px solid;
+    border-radius: 30px;
+}

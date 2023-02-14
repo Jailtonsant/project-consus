@@ -1,0 +1,7 @@
+.BarraLateral{
+   display: flex;
+   justify-content: center;
+   width: 99%;
+   height: 100vh;
+   border: 3px solid;
+}

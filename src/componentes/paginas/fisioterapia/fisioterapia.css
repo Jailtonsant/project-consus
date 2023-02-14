@@ -1,0 +1,69 @@
+.FisioterapiaTitulo {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 130px;
+}
+
+.FisioterapiaTituloStyle {
+
+    font-size: 30px;
+    border-bottom: 3px solid rgb(0, 140, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+.InforFisioterapia {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+
+
+
+}
+
+.TextoFisioterapia {
+    width: 80%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 2em;
+    text-align: center;
+  
+
+
+}
+
+
+.FisioterapiaConteudo{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    border: 1px solid;
+    
+}
+.FisioterapiaCaixaConteudo{
+  display: flex;
+  align-items: center;
+    width: 50%;
+    height: 400px;
+
+    line-height: 2em;
+    font-size: 17px;
+    line-height: 3em;
+}
+
+.FisioterapiaImagem{
+    width: 30%;
+    height:70%;
+    border: 2px solid ;
+    border-radius: 30px;
+}
+
