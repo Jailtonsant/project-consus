@@ -1,7 +1,7 @@
 import './barratopo.css'
 
 import foto1 from '../../img/teste2.jpg'
-import foto from '../../img/logo.png'
+import foto from '../../img/pedrasdefogo.png'
 import { Link } from 'react-router-dom'
 export default function BarraTopo() {
 
@@ -12,10 +12,7 @@ export default function BarraTopo() {
                     <div className='BarraTopoTitulo'>
 
                         <h1 className='LogoH1'>CONSUS</h1>
-                        <img
-                        className='LogoImg'
-                        src={foto}
-                        />
+                       
                     </div>
                     <div className='BarraTopoNavegador'>
                         <ul className='BarraTopoAtalhos'>
@@ -64,6 +61,7 @@ export default function BarraTopo() {
                         <span className='Mensagem'>BEM-VINDO AO BLOG DA SAÚDE</span>
                     </div>
                 </div>
+              
             </div>
         </>
     )

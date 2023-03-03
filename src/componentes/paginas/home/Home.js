@@ -1,13 +1,11 @@
 import './home.css'
-import foto from '../../../img/esse.jpg'
-import foto1 from '../../../img/caneta.jpeg'
-import foto2 from '../../../img/caneta.jpeg'
+import foto from '../../../img/pedrasdefogo.png'
 export default function Home() {
 
     return (
         <>
-          
 
+            <meta name="google-site-verification" content="SuCPHXkQ7ZYiiuzLQmqJH6SNXACvxNWs5FTQOoRAOHs" />
             <div className='HomeTitulo'>
 
                 <span className='HomeTituloStyle'>home</span>
@@ -18,6 +16,7 @@ export default function Home() {
 
 
                 <p className='HomeTextoInfor'>A cidade de Pedras de Fogo oferece vários serviços de saúde para a população através do SUS,a mesma conta com:</p>
+
                 <div className='HomeInfor'>
                     <ul className='HomeLista'>
                         <li className='HomeTextoLista'>1 Secretaria Municipal de Saúde</li>
@@ -31,6 +30,13 @@ export default function Home() {
                         <li className='HomeTextoLista'>Serviço de Atendimento Móvel de Urgência(SAMU)</li>
                     </ul>
                 </div>
+            </div>
+            <div className='HomeLogo'>
+                <img
+                    className='HomeImg'
+                    src={foto}
+                    alt=''
+                />
             </div>
         </>
     )
